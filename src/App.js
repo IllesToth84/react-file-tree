@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 
 function App() {
-  return <container style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '30vh' }}>
+  return <container style={{ display: 'flex',
+                             flexDirection: 'column',
+                             justifyContent: 'center',
+                             alignItems: 'center',
+                             height: '30vh' }}>
     <div>
     <h2>React File Tree Project</h2>
   <Folder name="Desktop">
